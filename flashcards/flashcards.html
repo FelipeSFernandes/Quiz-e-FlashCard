@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards de Inglês</title>
+    <link rel="stylesheet" href="flashcards.css">
+</head>
+<body>
+    <div class="container">
+        <div id="flashcard" class="flashcard">
+            <div id="word" class="word"></div>
+            <input type="text" id="translation" placeholder="Digite a tradução...">
+            <div class="button-container">
+                <button id="check-answer">Verificar Resposta</button>
+                <button id="next-word">Próxima Palavra</button>
+            </div>
+            <div id="result" class="feedback"></div>
+        </div>
+        <div id="score-container">
+            <div id="correct-score">Corretas: 0</div>
+            <div id="wrong-score">Erradas: 0</div>
+        </div>
+        <div id="word-count"></div>
+        
+                <!-- Outros conteúdos do jogo de flashcard -->
+            <button id="back-to-menu">Voltar ao Menu Principal</button>
+
+            <script>
+                document.getElementById('back-to-menu').addEventListener('click', function() {
+                    window.location.href = '../index.html';  // Volta para o menu principal
+                });
+            </script>
+
+
+        <ul id="incorrect-words"></ul> <!-- Lista de palavras erradas -->
+    </div>
+    <script src="flashcards.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Raleway:wght@300;600&display=swap');
+
+body {
+    background-color: #0b0c10;
+    color: #66fcf1;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(135deg, #1f2833 0%, #0b0c10 100%);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    padding: 40px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #45a29e;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#menu-description {
+    font-size: 1.5rem;
+    color: #c5c6c7;
+    margin-bottom: 20px;
+}
+
+#menu-description br {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #66fcf1 0%, #45a29e 100%);
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;  /* Espaçamento entre os botões */
+}
+
+button:hover {
+    background: linear-gradient(135deg, #45a29e 0%, #1f2833 100%);
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
+
+#menu-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button.start-game {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #66fcf1 0%, #45a29e 100%);
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+button.start-game:hover {
+    background: linear-gradient(135deg, #45a29e 0%, #1f2833 100%);
+    transform: scale(1.05);
+}
+
+button.start-game:focus {
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #45a29e;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #66fcf1;
+}

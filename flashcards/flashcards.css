@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background-color: #0b0c10;
+    color: #66fcf1;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(135deg, #1f2833 0%, #0b0c10 100%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 40px;
+    transition: all 0.3s ease;
+}
+
+.flashcard {
+    border: 1px solid #45a29e;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    background: rgba(36, 37, 42, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);  /* Ajuste para garantir que o campo de entrada esteja alinhado */
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #45a29e;
+    font-size: 18px;
+    background-color: #1f2833;
+    color: #66fcf1;
+    transition: all 0.3s ease;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #66fcf1 0%, #45a29e 100%);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #45a29e 0%, #1f2833 100%);
+}
+
+#result {
+    font-size: 22px;
+    margin-top: 15px;
+    color: #66fcf1;
+    transition: all 0.3s ease;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaço entre os botões */
+    margin-top: 10px;
+}
+
+#score-container {
+    margin-top: 20px;
+}
+
+#correct-score, #wrong-score {
+    font-size: 18px;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

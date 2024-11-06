@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz e Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome">
+        <h1>Bem-vindo ao<br> Quiz e Flashcards!</h1>
+        <button id="play-quiz">Jogar Quiz</button>
+        <button id="play-flashcard">Jogar Flashcard</button>
+    </div>
+
+    <script>
+        // Ao clicar no botão de Quiz ou Flashcard, redireciona para o jogo correspondente
+        document.getElementById('play-quiz').addEventListener('click', function() {
+            window.location.href = 'quiz/quiz.html'; // Caminho correto para o arquivo do quiz
+        });
+
+        document.getElementById('play-flashcard').addEventListener('click', function() {
+            window.location.href = 'flashcards/flashcards.html'; // Caminho correto para o arquivo do flashcard
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz de Múltipla Escolha</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz de Múltipla Escolha</h1>
+        
+        <!-- Contador de perguntas -->
+        <div id="question-counter" style="margin-bottom: 20px;">Question 1 of N</div> 
+        
+        <!-- Configurações iniciais -->
+        <div id="settings-container">
+            <button id="start-btn" class="start-btn" onclick="startQuiz()">Start Quiz</button>
+        </div>
+                       
+        <!-- Container do quiz -->
+        <div id="quiz-container"></div>
+
+ <!-- Outros conteúdos do jogo de quiz -->
+ <button id="back-to-menu">Voltar ao Menu Principal</button>
+
+ <script>
+     document.getElementById('back-to-menu').addEventListener('click', function() {
+         window.location.href = '../index.html';  // Volta para o menu principal
+     });
+ </script>
+
+    </div>
+    
+
+            
+
+
+    <script src="phrases.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
